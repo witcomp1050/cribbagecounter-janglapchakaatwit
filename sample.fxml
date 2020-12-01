@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="560.0" prefWidth="1000.0" style="-fx-background-color: #008000;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="chkbtn" layoutX="426.0" layoutY="473.0" mnemonicParsing="false" onAction="#compareScore" prefHeight="25.0" prefWidth="149.0" text="Check" />
+      <TextField fx:id="textfield" layoutX="426.0" layoutY="448.0" prefHeight="25.0" prefWidth="149.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="213.0" layoutX="109.0" layoutY="228.0" stroke="BLACK" strokeType="INSIDE" width="156.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="213.0" layoutX="746.0" layoutY="228.0" stroke="BLACK" strokeType="INSIDE" width="156.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="213.0" layoutX="318.0" layoutY="228.0" stroke="BLACK" strokeType="INSIDE" width="156.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="213.0" layoutX="533.0" layoutY="228.0" stroke="BLACK" strokeType="INSIDE" width="156.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="213.0" layoutX="422.0" stroke="BLACK" strokeType="INSIDE" width="156.0" />
+      <Label fx:id="card0" layoutX="436.0" layoutY="98.0" text="PRESS CHECK TO START" />
+      <Label fx:id="card1" layoutX="173.0" layoutY="326.0" text="" />
+      <Label fx:id="card2" layoutX="382.0" layoutY="326.0" text="" />
+      <Label fx:id="card3" layoutX="597.0" layoutY="326.0" text="" />
+      <Label fx:id="card4" layoutX="810.0" layoutY="326.0" text="" />
+   </children>
+</AnchorPane>
